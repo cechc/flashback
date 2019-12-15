@@ -58,8 +58,8 @@
                     </button>
                 </div>
                 </div>
-              );
-          }
+               );
+            }
         }
 
         class Card extends React.Component {
@@ -85,7 +85,7 @@
             cardClass = () => this.state.flipped ? 'Card -back' : 'Card -front';
 
             render() {
-            return (
+              return (
                 <div className={this.cardClass()} onClick={() => this.flipCard()}>
                     {!this.state.flipped ?
                 <div className="front">
@@ -111,8 +111,8 @@
                 </div>
                     }
                 </div>
-            );
-          }
+              );
+            }
 
         }
 
